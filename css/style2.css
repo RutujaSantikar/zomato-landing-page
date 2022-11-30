@@ -1,0 +1,43 @@
+@media (min-width: 756px) {
+  .lg-none {
+    display: none;
+  }
+  .sm-none {
+    display: block;
+  }
+  .middle-container {
+    padding-top: 1em;
+    padding-bottom: 5em;
+  }
+  .logo-img {
+    width: 25%;
+    height: 100%;
+  }
+  .text-center {
+    margin: 15px 0;
+  }
+  p {
+    font-size: 40px;
+  }
+  .location-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    width: 70%;
+    margin: 1em auto;
+    border-radius: 8px;
+  }
+  .place, .search {
+    border-radius: 0px;
+    padding-left: 30px;
+    margin: 8px 0;
+  }
+  input {
+    outline: none;
+  }
+  .fa-location-dot, .fa-magnifying-glass {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style2.css.map */
