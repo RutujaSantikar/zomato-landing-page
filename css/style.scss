@@ -86,3 +86,182 @@ select,input{
 }
 
 
+.order-card{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0px 20px 5px;
+}
+.card{
+    width: 60%;
+    height: 290px;
+    cursor: pointer;
+    border-radius: 18px;
+    transition:  transform 0.25s ease ;
+}
+.card:hover{
+    transform: scale(1.05); 
+}
+.card-img-top{
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.card-body{
+    padding: 10px  20px 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-subtext{
+    color:rgb(54, 54,54,);
+    font-size: 16px;
+    
+}
+
+.localty{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+.places-cont{
+   
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    padding: 18px 22px;
+    border-radius: 18px;
+    height: 100px;
+}
+.localty-title{
+    font-size: 18px;
+}
+.localty-container p{
+    color: black;
+}
+.place-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+.count-places{
+    font-size: 16px;
+    color:rgb(54, 54,54,) !important;
+}
+
+.app-container{
+    background-color: rgb(255, 251, 247);
+    margin-top: 4em;
+}
+.app-info{
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.app-title{
+    font-size: 30px;
+    text-align: center;
+}
+.app-subtitle{
+    color: #363636;
+    font-size: 16px;
+    text-align: center;
+}
+.email-phone{
+    font-size: 16px;
+}
+.email-phone input{
+    color: #363636;
+    
+}
+span{
+    margin-left: 30px;
+}
+.share-link-cont input{
+    border: 1px solid #363636;
+}
+.share-link{
+    border: none;
+    padding: 10px;
+    background-color:rgb(243, 5, 5);
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.download-app{
+    text-align: center;
+    color: #9c9c9c;
+    font-size: 14px;
+}
+.app-images{
+    display: flex;
+}
+.app-images img{
+    margin: 0 8px 0 8px;
+}
+.email-phone, .share-link-cont{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.options-cont{
+    background-color: rgb(252, 252, 252);
+}
+.option-text-cont{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+.options-text{
+    font-size: 22px;
+    color: #363636;
+}
+ .op{
+    background-color: white;
+    border: 1px solid #c7c4c4;
+    border-radius: 10px;
+    padding: 20px 24px;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.footer-cont{
+    background-color: rgb(248, 248, 248);
+}
+.footer-info{
+    padding:48px 10px 142px ;
+}
+.zomato-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.black-logo{
+    width: 100%;
+    margin-bottom: 3em;
+}
+.opt{
+    background-color:none;
+    border: 1px solid black;
+}
+h6{
+    margin: 0px 0px 12px;
+    font-weight:500;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+
+}
+.footer-cols p{
+    color: #696969;
+    font-size: 13px;
+    margin: 5px 0px;
+}
+.footer-cols{
+    margin: 35px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-cols div{
+    width: 50%;
+    margin: 15px 0px;
+
+}
